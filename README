@@ -5,7 +5,7 @@ nickname VARCHAR(40),
 age INT,
 email VARCHAR(40),
 password TEXT,
-avatar BYTEA -- BTW is't implemented ((
+avatar BYTEA -- BTW isn't implemented ((
 );
 
 2. posts: CREATE TABLE posts (
