@@ -1,7 +1,6 @@
 This is server side for project. You can make an account, log in, read other users's post and write your own post, that will appear in common feed. Also there is a possibility to change your account data (name/email and etc.)
 React.js react-router-dom are used for client side. Flask is used for server development.
 
-
 # Requirement database is PostgresSQL with tables
 1. users: CREATE TABLE users (
 id INT GENERATED AS IDENTITY BY DEFAULT,
