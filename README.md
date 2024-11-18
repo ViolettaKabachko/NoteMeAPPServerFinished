@@ -4,17 +4,25 @@ React.js react-router-dom are used for client side. Flask is used for server dev
 # Requirement database is PostgresSQL with tables
 1. users: CREATE TABLE users (
 id INT GENERATED AS IDENTITY BY DEFAULT,
+
 nickname VARCHAR(40),
+
 age INT,
+
 email VARCHAR(40),
+
 password TEXT,
-avatar BYTEA -- BTW isn't implemented ((
+
+avatar BYTEA -- BTW isn't implemented
 );
 
 2. posts: CREATE TABLE posts (
     post_id INT GENERATED AS IDENTITY BY DEFAULT,
+   
     post_text TEXT,
+   
     creator_id INT,
+   
     date_and_time TIMESTAMP
 );
 
